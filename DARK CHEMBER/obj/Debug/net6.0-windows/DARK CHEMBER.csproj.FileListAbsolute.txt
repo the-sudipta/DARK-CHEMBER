@@ -1,0 +1,64 @@
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.exe
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.deps.json
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.runtimeconfig.json
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.pdb
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.csproj.AssemblyReference.cache
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.csproj.GenerateResource.cache
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.GeneratedMSBuildEditorConfig.editorconfig
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.AssemblyInfoInputs.cache
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.AssemblyInfo.cs
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.csproj.CoreCompileInputs.cache
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\refint\DARK CHEMBER.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.pdb
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.genruntimeconfig.cache
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\ref\DARK CHEMBER.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Properties.Resources.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Login.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\Guna.UI2.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.csproj.CopyComplete
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Pin_Verification_DialogBox.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Signup.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Dashboard.resources
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.exe
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.deps.json
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.runtimeconfig.json
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\DARK CHEMBER.pdb
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Dashboard.resources
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Login.resources
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Pin_Verification_DialogBox.resources
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Properties.Resources.resources
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Signup.resources
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.csproj.GenerateResource.cache
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.AssemblyInfo.cs
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.csproj.CopyComplete
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\refint\DARK CHEMBER.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.pdb
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK CHEMBER.genruntimeconfig.cache
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\ref\DARK CHEMBER.dll
+C:\Users\User\Desktop\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.UC_Update_Delete_Password.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.UC_Update_Delete_Password.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.UC_Add_Password.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Search_Password.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.Settings.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net6.0-windows\DARK_CHEMBER.UC_Update.resources

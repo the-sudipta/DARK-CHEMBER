@@ -1,0 +1,16 @@
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK CHEMBER.csproj.AssemblyReference.cache
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.Dashboard.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.Login.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.Pin_Verification_DialogBox.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.Properties.Resources.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.Search_Password.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.Settings.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.Signup.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.UC_Add_Password.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.UC_Update.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK_CHEMBER.UC_Update_Delete_Password.resources
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK CHEMBER.csproj.GenerateResource.cache
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK CHEMBER.GeneratedMSBuildEditorConfig.editorconfig
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK CHEMBER.AssemblyInfoInputs.cache
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK CHEMBER.AssemblyInfo.cs
+E:\Yaarian\PROGRAMING\C# Docs\C# Projects\DARK CHEMBER\DARK CHEMBER\DARK CHEMBER\obj\Debug\net5.0-windows\DARK CHEMBER.csproj.CoreCompileInputs.cache

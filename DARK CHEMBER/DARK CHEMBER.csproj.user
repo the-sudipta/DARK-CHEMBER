@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pin_Verification_DialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Search_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Signup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_Add_Password.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_Update.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UC_Update_Delete_Password.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

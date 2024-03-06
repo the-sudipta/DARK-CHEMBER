@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace DARK_CHEMBER
 {
@@ -28,9 +29,9 @@ namespace DARK_CHEMBER
 
 
 
-        SqlConnection sc = new SqlConnection(SQLConnectionClass.conReturn());
+		MySqlConnection sc = new MySqlConnection(SQLConnectionClass.conReturn());
 
-        private void InitializeComponent2()
+		private void InitializeComponent2()
         {
             comboBox.SelectedIndex = 0;
             setHint();
@@ -55,18 +56,32 @@ namespace DARK_CHEMBER
         }
 
 
-        public void showData(string columName, string rowValue)
-        {
-            SqlCommand cmd = new SqlCommand("SELECT date, siteLink, siteName, mail, username, password FROM Password_Table WHERE "+columName+" = '"+rowValue+"' ", sc);
-            sc.Open();
-            var reader = cmd.ExecuteReader();
-            DataTable table = new DataTable();
-            table.Load(reader);
-            search_password_dataGridView.DataSource = table;
-            sc.Close();
-        }
+        public void showData(string columnName, string rowValue)
+		{
+			string query = "SELECT date, siteLink, siteName, mail, username, password FROM Password_Table WHERE " + columnName + " = @rowValue";
 
-        private void search_Button_Click(object sender, EventArgs e)
+			try
+			{
+				MySqlCommand cmd = new MySqlCommand(query, sc);
+				cmd.Parameters.AddWithValue("@rowValue", rowValue);
+
+				sc.Open();
+				MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+				DataTable table = new DataTable();
+				adapter.Fill(table);
+				search_password_dataGridView.DataSource = table;
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("An error occurred while fetching data: " + ex.Message);
+			}
+			finally
+			{
+				sc.Close();
+			}
+		}
+
+		private void search_Button_Click(object sender, EventArgs e)
         {
             string columName = "";
             string getvalue = comboBox.SelectedItem.ToString();

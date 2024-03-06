@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Yaarian\\PROGRAMING\\C# Docs\\C# Projects\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER.csproj": {}
+    "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER.csproj": {}
   },
   "projects": {
-    "E:\\Yaarian\\PROGRAMING\\C# Docs\\C# Projects\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER.csproj": {
+    "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Yaarian\\PROGRAMING\\C# Docs\\C# Projects\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER.csproj",
         "projectName": "DARK CHEMBER",
-        "projectPath": "E:\\Yaarian\\PROGRAMING\\C# Docs\\C# Projects\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Yaarian\\PROGRAMING\\C# Docs\\C# Projects\\DARK CHEMBER\\DARK CHEMBER\\DARK CHEMBER\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -43,6 +48,10 @@
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.3.4, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -55,7 +64,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +77,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

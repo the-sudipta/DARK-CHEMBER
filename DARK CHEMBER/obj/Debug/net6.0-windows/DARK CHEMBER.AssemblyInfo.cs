@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DARK CHEMBER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26850d6ab62ecc6382845d4c427ea4a57e4c46a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DARK CHEMBER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DARK CHEMBER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

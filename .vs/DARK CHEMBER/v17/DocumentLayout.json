@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA295E99-67C4-408D-AA12-980DCD9CB6F2}|DARK CHEMBER\\DARK CHEMBER.csproj|c:\\users\\user\\desktop\\dark chember\\dark-chember developer edition\\dark chember\\dark chember\\sqlconnectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA295E99-67C4-408D-AA12-980DCD9CB6F2}|DARK CHEMBER\\DARK CHEMBER.csproj|solutionrelative:dark chember\\sqlconnectionclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA295E99-67C4-408D-AA12-980DCD9CB6F2}|DARK CHEMBER\\DARK CHEMBER.csproj|c:\\users\\user\\desktop\\dark chember\\dark-chember developer edition\\dark chember\\dark chember\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA295E99-67C4-408D-AA12-980DCD9CB6F2}|DARK CHEMBER\\DARK CHEMBER.csproj|solutionrelative:dark chember\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA295E99-67C4-408D-AA12-980DCD9CB6F2}|DARK CHEMBER\\DARK CHEMBER.csproj|c:\\users\\user\\desktop\\dark chember\\dark-chember developer edition\\dark chember\\dark chember\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA295E99-67C4-408D-AA12-980DCD9CB6F2}|DARK CHEMBER\\DARK CHEMBER.csproj|solutionrelative:dark chember\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA295E99-67C4-408D-AA12-980DCD9CB6F2}|DARK CHEMBER\\DARK CHEMBER.csproj|c:\\users\\user\\desktop\\dark chember\\dark-chember developer edition\\dark chember\\dark chember\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA295E99-67C4-408D-AA12-980DCD9CB6F2}|DARK CHEMBER\\DARK CHEMBER.csproj|solutionrelative:dark chember\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQLConnectionClass.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\SQLConnectionClass.cs",
+              "RelativeDocumentMoniker": "DARK CHEMBER\\SQLConnectionClass.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\SQLConnectionClass.cs",
+              "RelativeToolTip": "DARK CHEMBER\\SQLConnectionClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:29:17.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\Login.cs",
+              "RelativeDocumentMoniker": "DARK CHEMBER\\Login.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\Login.cs",
+              "RelativeToolTip": "DARK CHEMBER\\Login.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:27:47.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\Login.cs",
+              "RelativeDocumentMoniker": "DARK CHEMBER\\Login.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\Login.cs [Design]",
+              "RelativeToolTip": "DARK CHEMBER\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T08:27:42.582Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\Utilities.cs",
+              "RelativeDocumentMoniker": "DARK CHEMBER\\Utilities.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\DARK CHEMBER\\DARK-CHEMBER DEVELOPER EDITION\\DARK CHEMBER\\DARK CHEMBER\\Utilities.cs",
+              "RelativeToolTip": "DARK CHEMBER\\Utilities.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAQwEkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T07:52:40.404Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

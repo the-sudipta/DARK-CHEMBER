@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace DARK_CHEMBER
 {
@@ -26,10 +27,10 @@ namespace DARK_CHEMBER
         #endregion Font
 
         public static string hello_lebel, greetings1, greetings2;
-        SqlConnection sc = new SqlConnection(SQLConnectionClass.conReturn());// Connection String
+		//MySqlConnection sc = new MySqlConnection(SQLConnectionClass.conReturn());  // Connection String
 
 
-        private void InitializeComponent2() // Custom Constructor
+		private void InitializeComponent2() // Custom Constructor
         {
             // Initialize Panel
             panelControls.BackColor = BLACK;

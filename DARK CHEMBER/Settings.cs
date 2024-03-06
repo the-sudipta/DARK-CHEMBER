@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace DARK_CHEMBER
 {
@@ -18,9 +20,9 @@ namespace DARK_CHEMBER
         Color changeButtonColor = Color.FromArgb(252, 123, 3);
 
 
-        SqlConnection sc = new SqlConnection(SQLConnectionClass.conReturn());
+		MySqlConnection sc = new MySqlConnection(SQLConnectionClass.conReturn());
 
-        private void InitializeComponent2()
+		private void InitializeComponent2()
         {
             mail_textBox.Text = Indicator.MASTER_MAIL;
             mail_textBox.ReadOnly = true;
@@ -56,26 +58,25 @@ namespace DARK_CHEMBER
             {
                 #region UPDATE BUTTON CLICKED
                 try
-                {
-                    // MASTER MAIL AND PASSWORD                     
-                    SqlCommand cmd = new SqlCommand("UPDATE MasterPass_Table SET " +
-                    "mail = '" + Utilities.SETTINGS.mail_textBox.Text + "', " +
-                    "masterPassword = '" + Utilities.SETTINGS.password_textBox.Text + "' " +
-                    "WHERE " +
-                    "mail ='" + Indicator.MASTER_MAIL + "' ", sc);
+				{
+					// MASTER MAIL AND PASSWORD 
+					MySqlCommand cmd = new MySqlCommand("UPDATE MasterPass_Table SET " +
+						"mail = @mail, " +
+						"masterPassword = @masterPassword " +
+						"WHERE " +
+						"mail = @oldMail", sc);
 
-                    sc.Open();
-                    cmd.ExecuteNonQuery();
-                    sc.Close();
-                    Indicator.MASTER_MAIL = Utilities.SETTINGS.mail_textBox.Text;
-                    Indicator.MASTER_PASSWORD = Utilities.SETTINGS.password_textBox.Text;
-                    //MessageBox.Show("New Mail = "+ Utilities.SETTINGS.mail_textBox.Text+"\n"
-                    //    +"New Pass = "+ Utilities.SETTINGS.password_textBox.Text+"\n\n"
-                    //    + "OLD Mail = " + Indicator.MASTER_MAIL + "\n"
-                    //    + "OLD Pass = " + Indicator.MASTER_PASSWORD);
+					cmd.Parameters.AddWithValue("@mail", Utilities.SETTINGS.mail_textBox.Text);
+					cmd.Parameters.AddWithValue("@masterPassword", Utilities.SETTINGS.password_textBox.Text);
+					cmd.Parameters.AddWithValue("@oldMail", Indicator.MASTER_MAIL);
 
-                }
-                catch (Exception ex)
+					sc.Open();
+					cmd.ExecuteNonQuery();
+					sc.Close();
+					Indicator.MASTER_MAIL = Utilities.SETTINGS.mail_textBox.Text;
+					Indicator.MASTER_PASSWORD = Utilities.SETTINGS.password_textBox.Text;
+				}
+				catch (Exception ex)
                 {
                     MessageBox.Show("Couldn't Update because of some technical error");
                     MessageBox.Show("MasterPass Error = "+ex.Message);
@@ -105,28 +106,37 @@ namespace DARK_CHEMBER
 
 
                 try
-                {
-                    // CheckBox Settings
-                    SqlCommand cmd = new SqlCommand("UPDATE Settings_Table SET " +
-                    "displaySiteLink = '" + Settings_Indicator.DISPLAY_SITE_LINK + "', " +
-                    "displaySiteName = '" + Settings_Indicator.DISPLAY_SITE_NAME + "', " +
-                    "displayMail = '" + Settings_Indicator.DISPLAY_MAIL + "', " +
-                    "displayUsername = '" + Settings_Indicator.DISPLAY_USERNAME + "', " +
-                    "displayPassword = '" + Settings_Indicator.DISPLAY_PASSWORD + "', " +
-                    "useSmallAlphabets = '" + Settings_Indicator.USE_SMALL_ALPHABETS + "', " +
-                    "useCapitalAlphabets = '" + Settings_Indicator.USE_CAPITAL_ALPHABETS + "', " +
-                    "useNumbers = '" + Settings_Indicator.USE_NUMBERS + "', " +
-                    "useSpecialChar = '" + Settings_Indicator.USE_SPECIAL_CHAR + "' " +
-                    "WHERE " +
-                    "indicator = '" + 1 + "' ", sc);
+				{
+					// CheckBox Settings
+					MySqlCommand cmd = new MySqlCommand("UPDATE Settings_Table SET " +
+						"displaySiteLink = @displaySiteLink, " +
+						"displaySiteName = @displaySiteName, " +
+						"displayMail = @displayMail, " +
+						"displayUsername = @displayUsername, " +
+						"displayPassword = @displayPassword, " +
+						"useSmallAlphabets = @useSmallAlphabets, " +
+						"useCapitalAlphabets = @useCapitalAlphabets, " +
+						"useNumbers = @useNumbers, " +
+						"useSpecialChar = @useSpecialChar " +
+						"WHERE " +
+						"indicator = @indicator", sc);
 
-                    sc.Open();
-                    cmd.ExecuteNonQuery();
-                    sc.Close();
-                    
+					cmd.Parameters.AddWithValue("@displaySiteLink", Settings_Indicator.DISPLAY_SITE_LINK);
+					cmd.Parameters.AddWithValue("@displaySiteName", Settings_Indicator.DISPLAY_SITE_NAME);
+					cmd.Parameters.AddWithValue("@displayMail", Settings_Indicator.DISPLAY_MAIL);
+					cmd.Parameters.AddWithValue("@displayUsername", Settings_Indicator.DISPLAY_USERNAME);
+					cmd.Parameters.AddWithValue("@displayPassword", Settings_Indicator.DISPLAY_PASSWORD);
+					cmd.Parameters.AddWithValue("@useSmallAlphabets", Settings_Indicator.USE_SMALL_ALPHABETS);
+					cmd.Parameters.AddWithValue("@useCapitalAlphabets", Settings_Indicator.USE_CAPITAL_ALPHABETS);
+					cmd.Parameters.AddWithValue("@useNumbers", Settings_Indicator.USE_NUMBERS);
+					cmd.Parameters.AddWithValue("@useSpecialChar", Settings_Indicator.USE_SPECIAL_CHAR);
+					cmd.Parameters.AddWithValue("@indicator", 1);
 
-                }
-                catch (Exception ex)
+					sc.Open();
+					cmd.ExecuteNonQuery();
+					sc.Close();
+				}
+				catch (Exception ex)
                 {
                     MessageBox.Show("Couldn't Update because of some technical error");
                     MessageBox.Show("Settings Error = " + ex.Message);

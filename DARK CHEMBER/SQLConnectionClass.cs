@@ -12,8 +12,14 @@ namespace DARK_CHEMBER
         {
             try
             {
-                return @"Data Source=(LocalDB)\v11.0; AttachDbFilename=" + System.IO.Path.GetFullPath("Dark_Chember_DataBase.mdf") + "; Integrated Security=True; Connect Timeout=30";
-            }
+				// Modify the connection string to connect to an online MySQL database
+				string serverAddress = "sql6.freemysqlhosting.net";
+				string databaseName = "sql6689043";
+				string username = "sql6689043";
+				string password = "J9EVLDSzPn";
+				int port = 3306; // MySQL default port number
+				return $"Server={serverAddress};Port={port};Database={databaseName};Uid={username};Pwd={password};";
+			}
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
@@ -23,9 +29,6 @@ namespace DARK_CHEMBER
 
 
         }
-        //public static string temporaryConReturn()
-        //{
-        // return @"Data Source=(LocalDB)\v11.0;Initial Catalog=Dark_Chember_DataBase;Integrated Security=True";
-        //}
+        
     }
 }

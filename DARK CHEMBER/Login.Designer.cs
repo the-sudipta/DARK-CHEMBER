@@ -20,453 +20,452 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+		#region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.background_panel = new System.Windows.Forms.Panel();
-            this.right_panel = new System.Windows.Forms.Panel();
-            this.panelControls = new System.Windows.Forms.Panel();
-            this.forgetPassword_label = new System.Windows.Forms.Label();
-            this.signUp_label = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.login_Button = new Guna.UI2.WinForms.Guna2Button();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.password_textBox = new System.Windows.Forms.TextBox();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.mail_textBox = new System.Windows.Forms.TextBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.greetings2_label = new System.Windows.Forms.Label();
-            this.greetings1_label = new System.Windows.Forms.Label();
-            this.hello_label = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.left_panel = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.minimize_pictureBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.close_pictureBox = new System.Windows.Forms.PictureBox();
-            this.background_panel.SuspendLayout();
-            this.right_panel.SuspendLayout();
-            this.panelControls.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.left_panel.SuspendLayout();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.minimize_pictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.close_pictureBox)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // background_panel
-            // 
-            this.background_panel.BackColor = System.Drawing.Color.Black;
-            this.background_panel.Controls.Add(this.right_panel);
-            this.background_panel.Controls.Add(this.left_panel);
-            this.background_panel.Controls.Add(this.panel2);
-            this.background_panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.background_panel.Location = new System.Drawing.Point(0, 0);
-            this.background_panel.Name = "background_panel";
-            this.background_panel.Size = new System.Drawing.Size(1551, 985);
-            this.background_panel.TabIndex = 0;
-            // 
-            // right_panel
-            // 
-            this.right_panel.BackColor = System.Drawing.Color.Silver;
-            this.right_panel.Controls.Add(this.panelControls);
-            this.right_panel.Controls.Add(this.greetings2_label);
-            this.right_panel.Controls.Add(this.greetings1_label);
-            this.right_panel.Controls.Add(this.hello_label);
-            this.right_panel.Controls.Add(this.panel7);
-            this.right_panel.Controls.Add(this.panel6);
-            this.right_panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.right_panel.Location = new System.Drawing.Point(569, 46);
-            this.right_panel.Name = "right_panel";
-            this.right_panel.Size = new System.Drawing.Size(982, 939);
-            this.right_panel.TabIndex = 3;
-            // 
-            // panelControls
-            // 
-            this.panelControls.Controls.Add(this.forgetPassword_label);
-            this.panelControls.Controls.Add(this.signUp_label);
-            this.panelControls.Controls.Add(this.label4);
-            this.panelControls.Controls.Add(this.login_Button);
-            this.panelControls.Controls.Add(this.panel10);
-            this.panelControls.Controls.Add(this.password_textBox);
-            this.panelControls.Controls.Add(this.panel9);
-            this.panelControls.Controls.Add(this.mail_textBox);
-            this.panelControls.Controls.Add(this.pictureBox5);
-            this.panelControls.Controls.Add(this.panel8);
-            this.panelControls.Controls.Add(this.pictureBox4);
-            this.panelControls.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelControls.Location = new System.Drawing.Point(329, 329);
-            this.panelControls.Name = "panelControls";
-            this.panelControls.Size = new System.Drawing.Size(695, 610);
-            this.panelControls.TabIndex = 8;
-            // 
-            // forgetPassword_label
-            // 
-            this.forgetPassword_label.AutoSize = true;
-            this.forgetPassword_label.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.forgetPassword_label.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.forgetPassword_label.ForeColor = System.Drawing.Color.White;
-            this.forgetPassword_label.Location = new System.Drawing.Point(453, 289);
-            this.forgetPassword_label.Name = "forgetPassword_label";
-            this.forgetPassword_label.Size = new System.Drawing.Size(117, 20);
-            this.forgetPassword_label.TabIndex = 10;
-            this.forgetPassword_label.Text = "Forget Password";
-            this.forgetPassword_label.Click += new System.EventHandler(this.forgetPassword_label_Click);
-            this.forgetPassword_label.MouseLeave += new System.EventHandler(this.forgetPassword_label_MouseLeave);
-            this.forgetPassword_label.MouseHover += new System.EventHandler(this.forgetPassword_label_MouseHover);
-            // 
-            // signUp_label
-            // 
-            this.signUp_label.AutoSize = true;
-            this.signUp_label.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.signUp_label.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.signUp_label.ForeColor = System.Drawing.Color.White;
-            this.signUp_label.Location = new System.Drawing.Point(277, 458);
-            this.signUp_label.Name = "signUp_label";
-            this.signUp_label.Size = new System.Drawing.Size(61, 20);
-            this.signUp_label.TabIndex = 9;
-            this.signUp_label.Text = "Sign Up";
-            this.signUp_label.Click += new System.EventHandler(this.signUp_label_Click);
-            this.signUp_label.MouseLeave += new System.EventHandler(this.signUp_label_MouseLeave);
-            this.signUp_label.MouseHover += new System.EventHandler(this.signUp_label_MouseHover);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(107, 458);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(170, 20);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Don\'t have any account?";
-            // 
-            // login_Button
-            // 
-            this.login_Button.BorderRadius = 22;
-            this.login_Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.login_Button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.login_Button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.login_Button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.login_Button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.login_Button.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.login_Button.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.login_Button.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.login_Button.ForeColor = System.Drawing.Color.White;
-            this.login_Button.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.login_Button.Location = new System.Drawing.Point(388, 326);
-            this.login_Button.Name = "login_Button";
-            this.login_Button.Size = new System.Drawing.Size(180, 45);
-            this.login_Button.TabIndex = 7;
-            this.login_Button.Text = "Log in";
-            this.login_Button.Click += new System.EventHandler(this.login_Button_Click);
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.White;
-            this.panel10.Location = new System.Drawing.Point(118, 274);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(450, 2);
-            this.panel10.TabIndex = 6;
-            // 
-            // password_textBox
-            // 
-            this.password_textBox.BackColor = System.Drawing.Color.Black;
-            this.password_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.password_textBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.password_textBox.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.password_textBox.ForeColor = System.Drawing.Color.White;
-            this.password_textBox.Location = new System.Drawing.Point(118, 243);
-            this.password_textBox.Name = "password_textBox";
-            this.password_textBox.PasswordChar = '•';
-            this.password_textBox.Size = new System.Drawing.Size(447, 32);
-            this.password_textBox.TabIndex = 5;
-            this.password_textBox.TextChanged += new System.EventHandler(this.password_textBox_TextChanged);
-            this.password_textBox.KeyUp += new System.Windows.Forms.KeyEventHandler(this.password_textBox_KeyUp);
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.White;
-            this.panel9.Location = new System.Drawing.Point(118, 201);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(450, 2);
-            this.panel9.TabIndex = 4;
-            // 
-            // mail_textBox
-            // 
-            this.mail_textBox.BackColor = System.Drawing.Color.Black;
-            this.mail_textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.mail_textBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.mail_textBox.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.mail_textBox.ForeColor = System.Drawing.Color.White;
-            this.mail_textBox.Location = new System.Drawing.Point(118, 170);
-            this.mail_textBox.Name = "mail_textBox";
-            this.mail_textBox.Size = new System.Drawing.Size(447, 32);
-            this.mail_textBox.TabIndex = 3;
-            this.mail_textBox.TextChanged += new System.EventHandler(this.mail_textBox_TextChanged);
-            this.mail_textBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mail_textBox_KeyDown);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(76, 238);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(29, 38);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 2;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel8
-            // 
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(65, 610);
-            this.panel8.TabIndex = 1;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(71, 174);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(39, 28);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
-            // greetings2_label
-            // 
-            this.greetings2_label.AutoSize = true;
-            this.greetings2_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.greetings2_label.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.greetings2_label.ForeColor = System.Drawing.Color.White;
-            this.greetings2_label.Location = new System.Drawing.Point(329, 309);
-            this.greetings2_label.Name = "greetings2_label";
-            this.greetings2_label.Size = new System.Drawing.Size(359, 20);
-            this.greetings2_label.TabIndex = 7;
-            this.greetings2_label.Text = "               to get all your passwords in  dark chember";
-            // 
-            // greetings1_label
-            // 
-            this.greetings1_label.AutoSize = true;
-            this.greetings1_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.greetings1_label.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.greetings1_label.ForeColor = System.Drawing.Color.White;
-            this.greetings1_label.Location = new System.Drawing.Point(329, 289);
-            this.greetings1_label.Name = "greetings1_label";
-            this.greetings1_label.Size = new System.Drawing.Size(277, 20);
-            this.greetings1_label.TabIndex = 6;
-            this.greetings1_label.Text = "               Welcome back ! Log in to your";
-            // 
-            // hello_label
-            // 
-            this.hello_label.AutoSize = true;
-            this.hello_label.Dock = System.Windows.Forms.DockStyle.Top;
-            this.hello_label.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.hello_label.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.hello_label.Location = new System.Drawing.Point(329, 249);
-            this.hello_label.Name = "hello_label";
-            this.hello_label.Size = new System.Drawing.Size(315, 40);
-            this.hello_label.TabIndex = 5;
-            this.hello_label.Text = "        HELLO THERE !";
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Black;
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel7.Location = new System.Drawing.Point(0, 249);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(329, 690);
-            this.panel7.TabIndex = 1;
-            // 
-            // panel6
-            // 
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(982, 249);
-            this.panel6.TabIndex = 0;
-            // 
-            // left_panel
-            // 
-            this.left_panel.BackColor = System.Drawing.Color.Gray;
-            this.left_panel.Controls.Add(this.panel5);
-            this.left_panel.Controls.Add(this.panel4);
-            this.left_panel.Controls.Add(this.panel1);
-            this.left_panel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.left_panel.Location = new System.Drawing.Point(0, 46);
-            this.left_panel.Name = "left_panel";
-            this.left_panel.Size = new System.Drawing.Size(569, 939);
-            this.left_panel.TabIndex = 2;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.panel12);
-            this.panel5.Controls.Add(this.panel11);
-            this.panel5.Controls.Add(this.pictureBox3);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel5.Location = new System.Drawing.Point(0, 210);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(569, 519);
-            this.panel5.TabIndex = 3;
-            // 
-            // panel12
-            // 
-            this.panel12.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel12.Location = new System.Drawing.Point(0, 0);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(38, 519);
-            this.panel12.TabIndex = 2;
-            // 
-            // panel11
-            // 
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(530, 0);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(39, 519);
-            this.panel11.TabIndex = 1;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(44, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(480, 519);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 729);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(569, 210);
-            this.panel4.TabIndex = 2;
-            // 
-            // panel1
-            // 
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(569, 210);
-            this.panel1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1551, 46);
-            this.panel2.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.minimize_pictureBox);
-            this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Controls.Add(this.close_pictureBox);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(1420, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Padding = new System.Windows.Forms.Padding(0, 5, 10, 5);
-            this.panel3.Size = new System.Drawing.Size(129, 44);
-            this.panel3.TabIndex = 1;
-            // 
-            // minimize_pictureBox
-            // 
-            this.minimize_pictureBox.BackColor = System.Drawing.Color.Black;
-            this.minimize_pictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.minimize_pictureBox.Dock = System.Windows.Forms.DockStyle.Left;
-            this.minimize_pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("minimize_pictureBox.Image")));
-            this.minimize_pictureBox.Location = new System.Drawing.Point(0, 5);
-            this.minimize_pictureBox.Name = "minimize_pictureBox";
-            this.minimize_pictureBox.Size = new System.Drawing.Size(36, 34);
-            this.minimize_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.minimize_pictureBox.TabIndex = 2;
-            this.minimize_pictureBox.TabStop = false;
-            this.minimize_pictureBox.Click += new System.EventHandler(this.minimize_pictureBox_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(42, 5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(36, 34);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // close_pictureBox
-            // 
-            this.close_pictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.close_pictureBox.Dock = System.Windows.Forms.DockStyle.Right;
-            this.close_pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("close_pictureBox.Image")));
-            this.close_pictureBox.Location = new System.Drawing.Point(83, 5);
-            this.close_pictureBox.Name = "close_pictureBox";
-            this.close_pictureBox.Size = new System.Drawing.Size(36, 34);
-            this.close_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.close_pictureBox.TabIndex = 1;
-            this.close_pictureBox.TabStop = false;
-            this.close_pictureBox.Click += new System.EventHandler(this.close_pictureBox_Click);
-            // 
-            // Login
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1551, 985);
-            this.Controls.Add(this.background_panel);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.Name = "Login";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.background_panel.ResumeLayout(false);
-            this.right_panel.ResumeLayout(false);
-            this.right_panel.PerformLayout();
-            this.panelControls.ResumeLayout(false);
-            this.panelControls.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.left_panel.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.minimize_pictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.close_pictureBox)).EndInit();
-            this.ResumeLayout(false);
+		/// <summary>
+		///  Required method for Designer support - do not modify
+		///  the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
+			background_panel = new Panel();
+			right_panel = new Panel();
+			panelControls = new Panel();
+			forgetPassword_label = new Label();
+			signUp_label = new Label();
+			label4 = new Label();
+			login_Button = new Guna.UI2.WinForms.Guna2Button();
+			panel10 = new Panel();
+			password_textBox = new TextBox();
+			panel9 = new Panel();
+			mail_textBox = new TextBox();
+			pictureBox5 = new PictureBox();
+			panel8 = new Panel();
+			pictureBox4 = new PictureBox();
+			greetings2_label = new Label();
+			greetings1_label = new Label();
+			hello_label = new Label();
+			panel7 = new Panel();
+			panel6 = new Panel();
+			left_panel = new Panel();
+			panel5 = new Panel();
+			panel12 = new Panel();
+			panel11 = new Panel();
+			pictureBox3 = new PictureBox();
+			panel4 = new Panel();
+			panel1 = new Panel();
+			panel2 = new Panel();
+			panel3 = new Panel();
+			minimize_pictureBox = new PictureBox();
+			pictureBox2 = new PictureBox();
+			close_pictureBox = new PictureBox();
+			background_panel.SuspendLayout();
+			right_panel.SuspendLayout();
+			panelControls.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+			left_panel.SuspendLayout();
+			panel5.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+			panel2.SuspendLayout();
+			panel3.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)minimize_pictureBox).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+			((System.ComponentModel.ISupportInitialize)close_pictureBox).BeginInit();
+			SuspendLayout();
+			// 
+			// background_panel
+			// 
+			background_panel.BackColor = Color.Black;
+			background_panel.Controls.Add(right_panel);
+			background_panel.Controls.Add(left_panel);
+			background_panel.Controls.Add(panel2);
+			background_panel.Dock = DockStyle.Fill;
+			background_panel.Location = new Point(0, 0);
+			background_panel.Name = "background_panel";
+			background_panel.Size = new Size(1551, 985);
+			background_panel.TabIndex = 0;
+			// 
+			// right_panel
+			// 
+			right_panel.BackColor = Color.Silver;
+			right_panel.Controls.Add(panelControls);
+			right_panel.Controls.Add(greetings2_label);
+			right_panel.Controls.Add(greetings1_label);
+			right_panel.Controls.Add(hello_label);
+			right_panel.Controls.Add(panel7);
+			right_panel.Controls.Add(panel6);
+			right_panel.Dock = DockStyle.Fill;
+			right_panel.Location = new Point(569, 46);
+			right_panel.Name = "right_panel";
+			right_panel.Size = new Size(982, 939);
+			right_panel.TabIndex = 3;
+			// 
+			// panelControls
+			// 
+			panelControls.Controls.Add(forgetPassword_label);
+			panelControls.Controls.Add(signUp_label);
+			panelControls.Controls.Add(label4);
+			panelControls.Controls.Add(login_Button);
+			panelControls.Controls.Add(panel10);
+			panelControls.Controls.Add(password_textBox);
+			panelControls.Controls.Add(panel9);
+			panelControls.Controls.Add(mail_textBox);
+			panelControls.Controls.Add(pictureBox5);
+			panelControls.Controls.Add(panel8);
+			panelControls.Controls.Add(pictureBox4);
+			panelControls.Dock = DockStyle.Left;
+			panelControls.Location = new Point(329, 329);
+			panelControls.Name = "panelControls";
+			panelControls.Size = new Size(695, 610);
+			panelControls.TabIndex = 8;
+			// 
+			// forgetPassword_label
+			// 
+			forgetPassword_label.AutoSize = true;
+			forgetPassword_label.Cursor = Cursors.Hand;
+			forgetPassword_label.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+			forgetPassword_label.ForeColor = Color.White;
+			forgetPassword_label.Location = new Point(453, 289);
+			forgetPassword_label.Name = "forgetPassword_label";
+			forgetPassword_label.Size = new Size(117, 20);
+			forgetPassword_label.TabIndex = 10;
+			forgetPassword_label.Text = "Forget Password";
+			forgetPassword_label.Click += forgetPassword_label_Click;
+			forgetPassword_label.MouseLeave += forgetPassword_label_MouseLeave;
+			forgetPassword_label.MouseHover += forgetPassword_label_MouseHover;
+			// 
+			// signUp_label
+			// 
+			signUp_label.AutoSize = true;
+			signUp_label.Cursor = Cursors.Hand;
+			signUp_label.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+			signUp_label.ForeColor = Color.White;
+			signUp_label.Location = new Point(277, 458);
+			signUp_label.Name = "signUp_label";
+			signUp_label.Size = new Size(61, 20);
+			signUp_label.TabIndex = 9;
+			signUp_label.Text = "Sign Up";
+			signUp_label.Click += signUp_label_Click;
+			signUp_label.MouseLeave += signUp_label_MouseLeave;
+			signUp_label.MouseHover += signUp_label_MouseHover;
+			// 
+			// label4
+			// 
+			label4.AutoSize = true;
+			label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+			label4.ForeColor = Color.White;
+			label4.Location = new Point(107, 458);
+			label4.Name = "label4";
+			label4.Size = new Size(170, 20);
+			label4.TabIndex = 8;
+			label4.Text = "Don't have any account?";
+			// 
+			// login_Button
+			// 
+			login_Button.BorderRadius = 22;
+			login_Button.Cursor = Cursors.Hand;
+			login_Button.DisabledState.BorderColor = Color.DarkGray;
+			login_Button.DisabledState.CustomBorderColor = Color.DarkGray;
+			login_Button.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+			login_Button.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+			login_Button.FillColor = Color.FromArgb(0, 192, 0);
+			login_Button.FocusedColor = Color.FromArgb(0, 64, 0);
+			login_Button.Font = new Font("Segoe UI Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+			login_Button.ForeColor = Color.White;
+			login_Button.HoverState.ForeColor = Color.FromArgb(0, 64, 0);
+			login_Button.Location = new Point(388, 326);
+			login_Button.Name = "login_Button";
+			login_Button.Size = new Size(180, 45);
+			login_Button.TabIndex = 7;
+			login_Button.Text = "Log in";
+			login_Button.Click += login_Button_Click;
+			// 
+			// panel10
+			// 
+			panel10.BackColor = Color.White;
+			panel10.Location = new Point(118, 274);
+			panel10.Name = "panel10";
+			panel10.Size = new Size(450, 2);
+			panel10.TabIndex = 6;
+			// 
+			// password_textBox
+			// 
+			password_textBox.BackColor = Color.Black;
+			password_textBox.BorderStyle = BorderStyle.None;
+			password_textBox.Cursor = Cursors.Hand;
+			password_textBox.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+			password_textBox.ForeColor = Color.White;
+			password_textBox.Location = new Point(118, 243);
+			password_textBox.Name = "password_textBox";
+			password_textBox.PasswordChar = '•';
+			password_textBox.Size = new Size(447, 32);
+			password_textBox.TabIndex = 5;
+			password_textBox.TextChanged += password_textBox_TextChanged;
+			password_textBox.KeyUp += password_textBox_KeyUp;
+			// 
+			// panel9
+			// 
+			panel9.BackColor = Color.White;
+			panel9.Location = new Point(118, 201);
+			panel9.Name = "panel9";
+			panel9.Size = new Size(450, 2);
+			panel9.TabIndex = 4;
+			// 
+			// mail_textBox
+			// 
+			mail_textBox.BackColor = Color.Black;
+			mail_textBox.BorderStyle = BorderStyle.None;
+			mail_textBox.Cursor = Cursors.Hand;
+			mail_textBox.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
+			mail_textBox.ForeColor = Color.White;
+			mail_textBox.Location = new Point(118, 170);
+			mail_textBox.Name = "mail_textBox";
+			mail_textBox.Size = new Size(447, 32);
+			mail_textBox.TabIndex = 3;
+			mail_textBox.TextChanged += mail_textBox_TextChanged;
+			mail_textBox.KeyDown += mail_textBox_KeyDown;
+			// 
+			// pictureBox5
+			// 
+			pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+			pictureBox5.Location = new Point(76, 238);
+			pictureBox5.Name = "pictureBox5";
+			pictureBox5.Size = new Size(29, 38);
+			pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+			pictureBox5.TabIndex = 2;
+			pictureBox5.TabStop = false;
+			// 
+			// panel8
+			// 
+			panel8.Dock = DockStyle.Left;
+			panel8.Location = new Point(0, 0);
+			panel8.Name = "panel8";
+			panel8.Size = new Size(65, 610);
+			panel8.TabIndex = 1;
+			// 
+			// pictureBox4
+			// 
+			pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+			pictureBox4.Location = new Point(71, 174);
+			pictureBox4.Name = "pictureBox4";
+			pictureBox4.Size = new Size(39, 28);
+			pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+			pictureBox4.TabIndex = 0;
+			pictureBox4.TabStop = false;
+			// 
+			// greetings2_label
+			// 
+			greetings2_label.AutoSize = true;
+			greetings2_label.Dock = DockStyle.Top;
+			greetings2_label.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+			greetings2_label.ForeColor = Color.White;
+			greetings2_label.Location = new Point(329, 309);
+			greetings2_label.Name = "greetings2_label";
+			greetings2_label.Size = new Size(359, 20);
+			greetings2_label.TabIndex = 7;
+			greetings2_label.Text = "               to get all your passwords in  dark chember";
+			// 
+			// greetings1_label
+			// 
+			greetings1_label.AutoSize = true;
+			greetings1_label.Dock = DockStyle.Top;
+			greetings1_label.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+			greetings1_label.ForeColor = Color.White;
+			greetings1_label.Location = new Point(329, 289);
+			greetings1_label.Name = "greetings1_label";
+			greetings1_label.Size = new Size(277, 20);
+			greetings1_label.TabIndex = 6;
+			greetings1_label.Text = "               Welcome back ! Log in to your";
+			// 
+			// hello_label
+			// 
+			hello_label.AutoSize = true;
+			hello_label.Dock = DockStyle.Top;
+			hello_label.Font = new Font("Showcard Gothic", 24F, FontStyle.Bold, GraphicsUnit.Point);
+			hello_label.ForeColor = Color.WhiteSmoke;
+			hello_label.Location = new Point(329, 249);
+			hello_label.Name = "hello_label";
+			hello_label.Size = new Size(315, 40);
+			hello_label.TabIndex = 5;
+			hello_label.Text = "        HELLO THERE !";
+			// 
+			// panel7
+			// 
+			panel7.BackColor = Color.Black;
+			panel7.Dock = DockStyle.Left;
+			panel7.Location = new Point(0, 249);
+			panel7.Name = "panel7";
+			panel7.Size = new Size(329, 690);
+			panel7.TabIndex = 1;
+			// 
+			// panel6
+			// 
+			panel6.Dock = DockStyle.Top;
+			panel6.Location = new Point(0, 0);
+			panel6.Name = "panel6";
+			panel6.Size = new Size(982, 249);
+			panel6.TabIndex = 0;
+			// 
+			// left_panel
+			// 
+			left_panel.BackColor = Color.Gray;
+			left_panel.Controls.Add(panel5);
+			left_panel.Controls.Add(panel4);
+			left_panel.Controls.Add(panel1);
+			left_panel.Dock = DockStyle.Left;
+			left_panel.Location = new Point(0, 46);
+			left_panel.Name = "left_panel";
+			left_panel.Size = new Size(569, 939);
+			left_panel.TabIndex = 2;
+			// 
+			// panel5
+			// 
+			panel5.Controls.Add(panel12);
+			panel5.Controls.Add(panel11);
+			panel5.Controls.Add(pictureBox3);
+			panel5.Dock = DockStyle.Left;
+			panel5.Location = new Point(0, 210);
+			panel5.Name = "panel5";
+			panel5.Size = new Size(569, 519);
+			panel5.TabIndex = 3;
+			// 
+			// panel12
+			// 
+			panel12.Dock = DockStyle.Left;
+			panel12.Location = new Point(0, 0);
+			panel12.Name = "panel12";
+			panel12.Size = new Size(38, 519);
+			panel12.TabIndex = 2;
+			// 
+			// panel11
+			// 
+			panel11.Dock = DockStyle.Right;
+			panel11.Location = new Point(530, 0);
+			panel11.Name = "panel11";
+			panel11.Size = new Size(39, 519);
+			panel11.TabIndex = 1;
+			// 
+			// pictureBox3
+			// 
+			pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+			pictureBox3.Location = new Point(44, 0);
+			pictureBox3.Name = "pictureBox3";
+			pictureBox3.Size = new Size(480, 519);
+			pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+			pictureBox3.TabIndex = 0;
+			pictureBox3.TabStop = false;
+			// 
+			// panel4
+			// 
+			panel4.Dock = DockStyle.Bottom;
+			panel4.Location = new Point(0, 729);
+			panel4.Name = "panel4";
+			panel4.Size = new Size(569, 210);
+			panel4.TabIndex = 2;
+			// 
+			// panel1
+			// 
+			panel1.Dock = DockStyle.Top;
+			panel1.Location = new Point(0, 0);
+			panel1.Name = "panel1";
+			panel1.Size = new Size(569, 210);
+			panel1.TabIndex = 1;
+			// 
+			// panel2
+			// 
+			panel2.BorderStyle = BorderStyle.FixedSingle;
+			panel2.Controls.Add(panel3);
+			panel2.Dock = DockStyle.Top;
+			panel2.Location = new Point(0, 0);
+			panel2.Name = "panel2";
+			panel2.Size = new Size(1551, 46);
+			panel2.TabIndex = 0;
+			// 
+			// panel3
+			// 
+			panel3.Controls.Add(minimize_pictureBox);
+			panel3.Controls.Add(pictureBox2);
+			panel3.Controls.Add(close_pictureBox);
+			panel3.Dock = DockStyle.Right;
+			panel3.Location = new Point(1420, 0);
+			panel3.Name = "panel3";
+			panel3.Padding = new Padding(0, 5, 10, 5);
+			panel3.Size = new Size(129, 44);
+			panel3.TabIndex = 1;
+			// 
+			// minimize_pictureBox
+			// 
+			minimize_pictureBox.BackColor = Color.Black;
+			minimize_pictureBox.Cursor = Cursors.Hand;
+			minimize_pictureBox.Dock = DockStyle.Left;
+			minimize_pictureBox.Image = (Image)resources.GetObject("minimize_pictureBox.Image");
+			minimize_pictureBox.Location = new Point(0, 5);
+			minimize_pictureBox.Name = "minimize_pictureBox";
+			minimize_pictureBox.Size = new Size(36, 34);
+			minimize_pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+			minimize_pictureBox.TabIndex = 2;
+			minimize_pictureBox.TabStop = false;
+			minimize_pictureBox.Click += minimize_pictureBox_Click;
+			// 
+			// pictureBox2
+			// 
+			pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+			pictureBox2.Location = new Point(42, 5);
+			pictureBox2.Name = "pictureBox2";
+			pictureBox2.Size = new Size(36, 34);
+			pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+			pictureBox2.TabIndex = 0;
+			pictureBox2.TabStop = false;
+			// 
+			// close_pictureBox
+			// 
+			close_pictureBox.Cursor = Cursors.Hand;
+			close_pictureBox.Dock = DockStyle.Right;
+			close_pictureBox.Image = (Image)resources.GetObject("close_pictureBox.Image");
+			close_pictureBox.Location = new Point(83, 5);
+			close_pictureBox.Name = "close_pictureBox";
+			close_pictureBox.Size = new Size(36, 34);
+			close_pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+			close_pictureBox.TabIndex = 1;
+			close_pictureBox.TabStop = false;
+			close_pictureBox.Click += close_pictureBox_Click;
+			// 
+			// Login
+			// 
+			AutoScaleDimensions = new SizeF(7F, 15F);
+			AutoScaleMode = AutoScaleMode.Font;
+			ClientSize = new Size(1551, 985);
+			Controls.Add(background_panel);
+			FormBorderStyle = FormBorderStyle.None;
+			Icon = (Icon)resources.GetObject("$this.Icon");
+			MaximizeBox = false;
+			Name = "Login";
+			StartPosition = FormStartPosition.CenterScreen;
+			Text = "Login";
+			WindowState = FormWindowState.Maximized;
+			background_panel.ResumeLayout(false);
+			right_panel.ResumeLayout(false);
+			right_panel.PerformLayout();
+			panelControls.ResumeLayout(false);
+			panelControls.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+			((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+			left_panel.ResumeLayout(false);
+			panel5.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+			panel2.ResumeLayout(false);
+			panel3.ResumeLayout(false);
+			((System.ComponentModel.ISupportInitialize)minimize_pictureBox).EndInit();
+			((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+			((System.ComponentModel.ISupportInitialize)close_pictureBox).EndInit();
+			ResumeLayout(false);
+		}
 
-        }
+		#endregion
 
-        #endregion
-
-        private Panel background_panel;
+		private Panel background_panel;
         private Panel panel2;
         private Panel panel3;
         private PictureBox pictureBox2;
